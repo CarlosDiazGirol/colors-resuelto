@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-function boxColor ({color, value}) {
+function BoxColor ({color, value}) {
   const [classList, setClassList] = useState('');
   const boxRef = useRef(null);
 
@@ -25,4 +25,4 @@ function boxColor ({color, value}) {
     </> 
   )
 }
-export default boxColor;  
+export default BoxColor;  
